@@ -1,0 +1,10 @@
+import api from './axios';
+export const getConflicts   = ()           => api.get('/conflicts');
+export const getHolidays    = ()           => api.get('/holidays');
+export const addHoliday     = (data)       => api.post('/holidays', data);
+export const deleteHoliday  = (id)         => api.delete(`/holidays/${id}`);
+export const getBlocked     = ()           => api.get('/blocked-slots');
+export const addBlocked     = (data)       => api.post('/blocked-slots', data);
+export const deleteBlocked  = (id)         => api.delete(`/blocked-slots/${id}`);
+export const getSettings    = ()           => api.get('/settings');
+export const updateSetting  = (key, value) => api.put(`/settings/${key}`, { value: String(value) });

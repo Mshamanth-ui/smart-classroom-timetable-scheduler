@@ -1,0 +1,7 @@
+.field{display:flex;flex-direction:column;gap:6px;}
+.label{font-size:.82rem;color:var(--muted);font-weight:500;}
+.req{color:var(--danger);margin-left:2px;}
+.input{background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:10px 12px;font-size:.9rem;outline:none;transition:border-color .2s;width:100%;}
+.input:focus{border-color:var(--accent);}
+.textarea{resize:vertical;min-height:70px;}
+.error{font-size:.78rem;color:var(--danger);}

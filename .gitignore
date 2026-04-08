@@ -1,0 +1,21 @@
+# ── OS ──────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Backend ─────────────────────────
+backend/target/
+backend/.mvn/
+backend/*.log
+backend/src/main/resources/application-local.properties
+
+# ── Frontend ─────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# ── IDE ─────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp

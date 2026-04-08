@@ -1,0 +1,8 @@
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;z-index:1000;padding:1rem;}
+.modal{background:var(--surface);border:1px solid var(--border);border-radius:16px;width:100%;max-height:90vh;display:flex;flex-direction:column;overflow:hidden;}
+.sm{max-width:400px;} .md{max-width:520px;} .lg{max-width:700px;}
+.header{display:flex;align-items:center;justify-content:space-between;padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);}
+.title{font-family:'Syne',sans-serif;font-weight:700;font-size:1.1rem;}
+.close{background:none;border:none;color:var(--muted);font-size:1.1rem;padding:4px 8px;border-radius:6px;}
+.close:hover{background:var(--surface2);color:var(--text);}
+.body{padding:1.5rem;overflow-y:auto;}

@@ -1,0 +1,5 @@
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.75rem;font-weight:500;}
+.green{background:rgba(6,214,160,.15);color:var(--accent2);}
+.blue{background:rgba(59,130,246,.15);color:var(--accent);}
+.amber{background:rgba(245,158,11,.15);color:var(--accent3);}
+.red{background:rgba(239,68,68,.15);color:var(--danger);}
